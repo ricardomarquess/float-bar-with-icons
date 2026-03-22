@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 3800px;
+    position: relative;
+}
+
+.floatbar-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    position: sticky;
+}
+
+.floatbar-nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    background-color: #DBE9EE;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: 2px solid #C0D6DF;
+}
+
+.icon-bar {
+    transition: all 0.3s ease;
+}
+
+.icon-bar:hover {
+    transform: scale(1.10);
+}
